@@ -1,5 +1,7 @@
 # generate-V1-baseline-files
 
+After cloning...
+
 1. Change filename_baseline_file and schema_to_search srtrings to the correct values.
 
 2. ```pipenv install pandas```
