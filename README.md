@@ -2,7 +2,7 @@
 
 After cloning...
 
-1. Change filename_baseline_file and schema_to_search srtrings to the correct values.
+1. Change filename_baseline_file and schema_to_search strings (in generate_baseline.py) to the correct values.
 
 2. ```pipenv install pandas```
 
