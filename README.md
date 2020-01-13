@@ -31,7 +31,7 @@ SELECT n.nspname AS schema_name
 ORDER BY n.nspname, c.relname ;
 ```
 
-Export the returned values as a CSV file. Add the header ```schema_name,table_name,owner,table_type``` Rename the new file to table_data_all_tables_internal.csv and place it in the folder.
+Export the returned values as a CSV file. Add the header ```schema_name,table_name,owner,table_type```. Rename the new file to table_data_all_tables_internal.csv and place it in the folder.
 
 2. Use this script to get the ddl for your schema (replace datalake references with your schema):
 ```
