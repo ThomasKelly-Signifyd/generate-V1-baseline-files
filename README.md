@@ -29,7 +29,7 @@ SELECT n.nspname AS schema_name
 ORDER BY n.nspname, c.relname ;
 ```
 
-Export the retrurned values as a CSV file. Rename the new file to table_data_all_tables_internal.csv and place it in the folder.
+Export the returned values as a CSV file. Rename the new file to table_data_all_tables_internal.csv and place it in the folder.
 
 2. Use this script to get the ddl for your schema (replace datalake references with your schema):
 ```
@@ -46,4 +46,4 @@ GROUP BY admin.v_generate_tbl_ddl.tablename, ddl, "seq"
 ORDER BY admin.v_generate_tbl_ddl.tablename ASC, "seq" ASC;
 ```
 
-Export the retrurned values as a TSV file, then remove all " characters from the file. Rename the new file to V1_baseline_SCHEMA.sql (Replace SCHEMA with your schema) and place it in the folder.
+Export the returned values as a TSV file, then remove all " characters from the file. Rename the new file to V1_baseline_SCHEMA.sql (Replace SCHEMA with your schema) and place it in the folder.
