@@ -3,8 +3,8 @@ import os
 
 
 filename_all_table_data = "table_data_all_tables_internal.csv"
-filename_baseline_file = "V1_baseline_datalagoon.tsv"  # EDIT
-schema_to_search = "datalagoon"  # EDIT
+filename_baseline_file = "V1_baseline_datalake.tsv"  # EDIT
+schema_to_search = "datalake"  # EDIT
 
 
 def generate_baseline():
